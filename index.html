@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  >
+  <title>SalusCore</title>
+</head>
+<body>
+
+  <!-- Navbar fixa e transparente -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="imgs/logo_saluscore.png" alt="Logo SalusCore" width="30" height="30" class="d-inline-block align-text-top me-2">
+        SalusCore
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#Sobre">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Como Funciona?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Desenvolvedores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Header -->
+  <header class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <p2 class="hero-subtitle mb-2">Saúde de alta performance</p2>
+      <h1 class="hero-title fw-bold mb-3">SALUSCORE COM VOCÊ!</h1>
+      <h2 class="hero-tagline mb-4">Seu bem-estar em primeiro lugar</h2>
+      <a href="#" class="btn hero-btn btn-lg fw-bold">Inovação em IA para a saúde</a>
+    </div>
+  </header>
+
+  <!-- Seção Sobre Nós -->
+  <section class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center">
+        <img src="imgs/icon_saude.png" class="img-fluid" style="max-height: 300px;">
+      </div>
+      <div class="col-md-6">
+        <h6 class="text-primary fw-bold">SOBRE NÓS</h6>
+        <h2 class="fw-bold">Conecte Ideias E Transforme <br> Desafio Em Oportunidades</h2>
+        <p>A SalusCore é uma startup inovadora dedicada ao desenvolvimento de soluções de inteligência artificial para enfrentar desafios específicos na área da saúde. Nosso foco é criar tecnologias avançadas que auxiliem no diagnóstico, tratamento e monitoramento de condições.</p>
+        <hr class="border-primary border-2 w-25">
+      </div>
+    </div>
+  </section>
+  <br><br><br>
+
+  <!-- Seção Desenvolvedores -->
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h6 class="text-primary fw-bold">SUA MELHOR ESCOLHA!</h6>
+      <h2 class="fw-bold mb-4">Desenvolvedores</h2>
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-3">
+          <div class="card h-100 shadow">
+            <img src="imgs/Arthur.jfif" id="Arthur" alt="Arthur Albino">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Arthur Albino</h5>
+            
+              <div class="d-flex flex-wrap gap-2" ">
+                <span  id="cardCargo">REDATOR</span>
+                <span id="cardFuncao">DEV - SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3">
+          <div class="card h-100 shadow">
+            <img src="imgs/Endrew.jfif" id="Endrew"  alt="Endrew Rodrigues">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Endrew Rodrigues</h5>
+               
+         
+              <div class="d-flex flex-row gap-1">
+                <span id="cardCargo">FRONT-END</span>
+                <span id="cardFuncao">ANALISTA IA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3">
+          <div class="card h-100 shadow">
+            <img src="imgs/Isaac.jfif" id="Isaac" alt="Isaac Hideki">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Isaac Hideki</h5>
+             
+              <div class="d-flex flex-row gap-2">
+                          <span id="cardCargo">DEV-MOBILE</span>
+                          <span id="cardFuncao">BACK-END</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-3">
+          <div class="card h-100 shadow">
+            <img src="imgs/Guilherme.jfif" class="card-img-top" alt="Guilherme Kauan B." id="Guilherme">
+            <div class="card-body">
+              <h5 class="card-title text-primary">Guilherme Kauan B.</h5>
+           
+              <div class="d-flex flex-row gap-2">
+                <span  id="cardCargo">UX/UI</span>
+                <span  id="cardFuncao">FRONT-END</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+    <div class="Container">
+    <h1 class="titleWelcome">Bem-Vindo ao</h1>
+    <br>
+    
+    <h2><span class="blue">Gluten</span><span class="orange">Identify</span></h2>
+    <br><br>
+    <p>
+      Sentiu vontade de comer aquela comida do comercial e não sabe se possui glúten? 
+    </p>
+    <div class="buttons">
+      <a href="#" class="btn-filled">BAIXE O APP! <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#e3e3e3"><path d="M686-450H160v-60h526L438-758l42-42 320 320-320 320-42-42 248-248Z"/></svg></a>
+    </div>
+    <img class="imgMobile" src="imgs/mobile.png">
+
+    <div class="Sobre">
+      <h3 class="sobreTitle">Sobre o GlutenIdentify</h3>
+      <br><br><br>
+ 
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" id="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              O Sistema
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Auxiliar o momento da escolha de produtos alimentícios para pessoas intolerantes a glúten ou com doença celíaca por meio de processamento de imagem.</strong>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" id="button-collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Reconhecimento de texto em imagens
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>OCR (Reconhecimento Óptico de Caracteres)</strong>é uma tecnologia que permite ao GlutenIdentify “ler” textos diretamente de imagens, como os rótulos de alimentos.
+Quando o usuário escaneia um produto, o OCR identifica as palavras impressas, convertendo-as em texto digital para que possam ser analisadas automaticamente pelo sistema.
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" id="button-collapsedTwo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+             Entendendo o significado dos ingredientes
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>O NLP (Processamento de Linguagem Natural)</strong> interpreta o texto capturado, identificando termos técnicos, variações linguísticas e sinônimos relacionados ao glúten.
+Por exemplo, o sistema consegue reconhecer que “malte de cevada” contém glúten, mesmo sem a palavra “glúten” explícita, tornando a análise mais inteligente e segura.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+        <div class="linha-em-cima"></div>
+    <div class="minha-div">
+        Conteúdo da div
+    </div>
+    </div>
+   <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" id="buttonLine"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="buttonLine"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"  class="buttonLine"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p class="titleCarousel">Trigo</p>
+      
+      <p class="txtCarousel">O glúten, proteína presente no trigo, cevada e centeio, é responsável pela elasticidade de massas. Algumas pessoas desenvolvem intolerância: na doença celíaca (autoimune), o glúten danifica o intestino; na intolerância ao glúten, causa sintomas como dor abdominal, diarreia e fadiga sem danos estruturais. O diagnóstico requer exames específicos, e o tratamento é dieta rigorosa sem glúten. Atenção: a restrição deve ser orientada por profissional para evitar deficiências nutricionais.
+      </p>
+      <img src="imgs/img1.png"  class="img1">
+    
+    </div>
+    <div class="carousel-item">
+       <p class="titleCarousel">Doença celíaca</p>
+      
+      <p class="txtCarousel">A doença celíaca é uma condição autoimune, onde o sistema imunológico ataca o próprio intestino delgado ao detectar a presença de glúten.
+Isso pode levar à destruição das vilosidades intestinais, dificultando a absorção de nutrientes.
+O tratamento exige restrição total ao glúten, com acompanhamento profissional, para evitar deficiências nutricionais e complicações.
+      </p>
+      <img src="imgs/iconeDor.png"  class="img1">
+    </div>
+    <div class="carousel-item">
+       <p class="titleCarousel">Intolerância a Gluten</p>
+      
+      <p class="txtCarousel"> Intolerância ao glúten Quando o corpo reage, mas sem inflamação grave A intolerância ao glúten causa sintomas como dor abdominal, diarreia, gases, inchaço e fadiga, mas sem danificar o intestino. Não é uma doença autoimune, mas afeta a qualidade de vida. O diagnóstico é clínico e, muitas vezes, feito por exclusão de outras causas. O tratamento envolve reduzir ou cortar alimentos com glúten, com orientação nutricional. 
+.
+      </p>
+      <img src="imgs/img1.png"  class="img1">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    
+    <img src="imgs/back_arrow.png" alt="">
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    
+    <img src="imgs/arrow.png" alt="">
+  </button>
+
+<br><br><br>
+</div>
+
+  <!-- Tenho Intolerancia -->
+      <main class="ContainerIntolerancia">
+    <div class="heading">
+      <h1>Tenho intolerancia?</h1>
+      <p>Conheça mais e descubra se você tem intolerância a glúten!</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h2>SINTOMAS COMUNS</h2>
+
+      </div>
+      <div class="card">
+        <h2>TEM INTOLERANCIA</h2>
+
+      </div>
+    </div>
+  </main>
+  <br><br><br>
+    <!-- Curiosidade -->
+    <div class="containerCuriosidade">
+
+    <h4 class="txtCuriosidades">Curiosidades</h4>
+    <br><br>
+
+    <div id="Cards">
+
+    <div class="info-card">
+  <div class="circle-icon"> <img src="imgs/quest.png" id="ImgQuest"></div>
+  <div class="card-content">
+ 
+    <h3>Você sabia?</h3>
+    <p>A relação entre o glúten e a doença celíaca foi estabelecida em 1952 pela pesquisadora inglesa Charlotte Anderson.</p>
+  </div>
+</div>
+
+    <div class="info-card">
+  <div class="circle-icon"> <img src="imgs/quest.png" id="ImgQuest"></div>
+  <div class="card-content">
+ 
+       <h3>Você sabia?</h3>
+    <p>1% da população mundial, o que equivale a cerca de 80 milhões de pessoas, segundo a Organização Mundial da Saúde (OMS)</p>
+  </div>
+</div>
+    <div class="info-card">
+  <div class="circle-icon"> <img src="imgs/quest.png" id="ImgQuest"></div>
+  <div class="card-content">
+ 
+       <h3>Você sabia?</h3>
+    <p>Indivíduos com outras doenças autoimunes, como diabetes tipo 1 ou tireoidite de Hashimoto, têm maior propensão a desenvolver a doença celíaca.</p>
+  </div>
+</div>
+</div>
+<div id="Cards"><
+    <div class="info-card">
+  <div class="circle-icon"> <img src="imgs/quest.png" id="ImgQuest"></div>
+  <div class="card-content">
+ 
+       <h3>Você sabia?</h3>
+    <p>O glúten não é solúvel em água: Diferente de muitas proteínas, o glúten é insolúvel, o que ajuda a formar a textura firme e elástica das massas assadas.</p>
+  </div>
+</div>
+    <div class="info-card">
+  <div class="circle-icon"> <img src="imgs/quest.png" id="ImgQuest"></div>
+  <div class="card-content">
+ 
+       <h3>Você sabia?</h3>
+    <p> Variedades antigas de trigo têm menos glúten que os trigos modernos:
+Estudos indicam que o trigo moderno, desenvolvido para ter melhor panificação, contém maior quantidade e força de glúten que variedades como o trigo espelta ou o einkorn (trigo primitivo).</p>
+    
+  </div>
+</div>
+    <div class="info-card">
+  <div class="circle-icon"> <img src="imgs/quest.png" id="ImgQuest"></div>
+  <div class="card-content">
+ 
+        <h3>Você sabia?</h3>
+      <p> Existe uma ligação entre glúten e funções neurológicas:
+  esta relacionado a sintomas neurológicos, como ataxia (perda de coordenação motora), mesmo sem afetar o intestino diretamente — essa condição é chamada de ataxia por glúten.</p>
+      
+    </div>
+  </div>
+
+
+  </div>
+
+
+
+  
+ <div class="wave-container inverted">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 
+          58-18 88-18s
+          58 18 88 18 
+          58-18 88-18 
+          58 18 88 18
+          v44h-352z" />
+      </defs>
+      <g class="wave-animation">
+        <use href="#wave-path" x="50" y="0" fill="rgba(255,255,255,0.3)" />
+        <use href="#wave-path" x="50" y="3" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="6" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="9" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="12" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="15" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="18" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="21" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="24" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="27" fill="rgba(255,255,255,0.5)" />
+        <use href="#wave-path" x="50" y="30" fill="#fff" />
+      </g>
+    </svg>
+
+     <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 SalusCore / GlutenIdentify. Todos os direitos reservados.</p>
+      <p class="mb-0 small">Desenvolvido por alunos da FATECH | Projeto TCC</p>
+    </div>
+  </footer>
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+
+</html>
